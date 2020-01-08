@@ -31,5 +31,6 @@ class Song
     end
     library
   end
+  def self
   
 end 
