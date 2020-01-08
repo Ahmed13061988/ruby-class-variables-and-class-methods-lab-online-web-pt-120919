@@ -31,6 +31,14 @@ class Song
     end
     library
   end
-  def self
+  def self.artist_count 
+    inter = {}
+    @@artists.each do |artist|
+      if artist.key?(artist)
+        inter[artist] += 1 
+      else
+        inter[artist] = 1 
+      end 
+    end 
   
 end 
