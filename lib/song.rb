@@ -28,7 +28,6 @@ class Song
       else
         library[genre] = 1 
       end
-    end 
     end
     library
   end
